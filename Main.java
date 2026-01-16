@@ -3,7 +3,7 @@ package Lab2;
 public class Main {
 
 	public static void main(String[] args) {
-	     BankAccount account1 = new BankAccount("Alois Emmanuel", "30054", 500.0);
+	     BankAccount account1 = new BankAccount("muzerwa ntawukuriryayo", "30265", 500.0);
 	     account1.printAccountDetails();
 
 	     account1.deposit(200.0);
@@ -40,4 +40,5 @@ public class Main {
 	     account1.freezeAccount();
 	     System.out.println("Account Status after freeze: " + account1.getAccountStatus());
 	 }
+
 	}
